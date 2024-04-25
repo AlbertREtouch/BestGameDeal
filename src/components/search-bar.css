@@ -1,0 +1,35 @@
+/* search-bar.css */
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 50%;
+}
+
+.searchInput {
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid cyan;
+  color: cyan;
+  background-color: #333;
+  outline: none;
+  width: 100%;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+  background-color: #08f;
+}
