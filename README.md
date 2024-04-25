@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Best Game Deal 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Best Game Deal  is a React-based application that utilizes the CheapShark API to help users find the best deals on games at the lowest prices.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search Games**: Users can search for game titles to find relative games.
+- **View Game Details**: Click on any game card to see more detailed information, such as historical lowest prices and current deals.
 
 ### `npm start`
 
