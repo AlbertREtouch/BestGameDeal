@@ -1,6 +1,5 @@
-// GameCard.js
 import React from 'react';
-import './game-card.css'; // 确保引入CSS文件
+import './game-card.css'; 
 
 const GameCard = ({ game, onSelect }) => {
   const { thumb, external, cheapest } = game;

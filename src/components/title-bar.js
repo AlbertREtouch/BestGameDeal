@@ -1,5 +1,5 @@
 import React from 'react';
-import './title-bar.css'; // 确保引入CSS文件
+import './title-bar.css';
 
 const TitleBar = () => {
   return (

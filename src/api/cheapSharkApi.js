@@ -22,8 +22,6 @@ export const fetchDealDetails = async (dealID) => {
   }
 };
 
-// 在 /src/api/CheapSharkAPI.js 中
-
 export const fetchGames = async (title, limit = 60, exact = 0) => {
   try {
     const params = { title, limit, exact };

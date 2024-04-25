@@ -1,6 +1,5 @@
-// GameDetail.js
 import React from 'react';
-import './game-detail.css';  // 确保引入CSS文件
+import './game-detail.css';
 
 const formatDate = (timestamp) => {
   const date = new Date(timestamp * 1000);

@@ -1,6 +1,5 @@
-// SearchBar.js
 import React, { useState } from 'react';
-import './search-bar.css'; // 确保CSS文件被导入
+import './search-bar.css'; 
 
 const SearchBar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
